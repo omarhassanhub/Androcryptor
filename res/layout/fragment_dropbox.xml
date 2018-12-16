@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/fragment2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/buttonLinkAcc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/fragment2"
+        android:layout_marginTop="20dp"
+        android:background="#ffffff"
+        android:drawableRight="@drawable/arrow"
+        android:gravity="left|center_vertical"
+        android:minHeight="28dp"
+        android:paddingLeft="20dp"
+        android:text="@string/dropboxLink"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/fragment2"
+        android:layout_marginLeft="23dp"
+        android:text="Authenticate"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <Button
+        android:id="@+id/buttonUploadAcc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/buttonLinkAcc"
+        android:layout_marginTop="17dp"
+        android:layout_weight="1"
+        android:background="#ffffff"
+        android:drawableRight="@drawable/arrow"
+        android:gravity="left|center_vertical"
+        android:minHeight="28dp"
+        android:paddingLeft="20dp"
+        android:text="@string/fileUploadString"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/buttonDownloadAcc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/buttonUploadAcc"
+        android:layout_marginTop="14dp"
+        android:layout_weight="1"
+        android:background="#ffffff"
+        android:drawableRight="@drawable/arrow"
+        android:gravity="left|center_vertical"
+        android:minHeight="28dp"
+        android:paddingLeft="20dp"
+        android:text="@string/fileDownload"
+        android:textSize="15dp" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/TextView04"
+        android:src="@drawable/ic_dropbox" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/buttonDownloadAcc"
+        android:layout_marginTop="15dp"
+        android:text="Join a team"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <Button
+        android:id="@+id/team"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/TextView01"
+        android:layout_weight="1"
+        android:background="#ffffff"
+        android:drawableRight="@drawable/arrow"
+        android:gravity="left|center_vertical"
+        android:minHeight="28dp"
+        android:paddingLeft="20dp"
+        android:text="@string/team"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/invite"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/TextView02"
+        android:layout_weight="1"
+        android:background="#ffffff"
+        android:drawableRight="@drawable/arrow"
+        android:gravity="left|center_vertical"
+        android:minHeight="28dp"
+        android:paddingLeft="20dp"
+        android:text="Invite to folder"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/TextView01"
+        android:layout_centerVertical="true"
+        android:text="Invite someone"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/TextView03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/TextView02"
+        android:layout_below="@+id/invite"
+        android:layout_marginTop="17dp"
+        android:text="Share your opinion"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <Button
+        android:id="@+id/comment"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/TextView03"
+        android:layout_weight="1"
+        android:background="#ffffff"
+        android:drawableRight="@drawable/arrow"
+        android:gravity="left|center_vertical"
+        android:minHeight="28dp"
+        android:paddingLeft="20dp"
+        android:text="Comments section"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/TextView04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/TextView03"
+        android:layout_below="@+id/comment"
+        android:layout_marginTop="16dp"
+        android:text="Record voice memo"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <Button
+        android:id="@+id/memo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/TextView04"
+        android:layout_weight="1"
+        android:background="#ffffff"
+        android:drawableRight="@drawable/arrow"
+        android:gravity="left|center_vertical"
+        android:minHeight="28dp"
+        android:paddingLeft="20dp"
+        android:text="Drop Memo"
+        android:textSize="15dp" />
+
+</RelativeLayout>

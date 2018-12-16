@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/AbsoluteLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_bg" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="62dp"
+        android:layout_y="60dp"
+        android:scaleType="center"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="117dp"
+        android:layout_y="77dp"
+        android:text="Androcryptor"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_x="106dp"
+        android:layout_y="139dp"
+        android:background="#ffffff"
+        android:ems="10"
+        android:inputType="textEmailAddress" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/pword"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_x="106dp"
+        android:layout_y="182dp"
+        android:ems="10"
+        android:background="#ffffff"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="48dp"
+        android:layout_y="139dp"
+        android:text="Email: "
+        android:textColor="#fff"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="15dp"
+        android:layout_y="182dp"
+        android:text="Password: "
+        android:textColor="#fff"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+    <TextView
+        android:id="@+id/loginErrorMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="15dp"
+        android:layout_y="222dp"
+        android:textColor="#fff"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/buttonReg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="58dp"
+        android:layout_x="0dp"
+        android:layout_y="378dp"
+        android:background="#ffffff"
+        android:drawableRight="@drawable/arrow"
+        android:gravity="left|center_vertical"
+        android:minHeight="28dp"
+        android:paddingLeft="20dp"
+        android:text="Register"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/buttonReset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="58dp"
+        android:layout_x="0dp"
+        android:layout_y="413dp"
+        android:background="#ffffff"
+        android:drawableRight="@drawable/arrow"
+        android:gravity="left|center_vertical"
+        android:minHeight="28dp"
+        android:paddingLeft="20dp"
+        android:text="Forgot Password?"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="58dp"
+        android:layout_x="0dp"
+        android:layout_y="343dp"
+        android:background="#ffffff"
+        android:drawableRight="@drawable/arrow"
+        android:gravity="left|center_vertical"
+        android:minHeight="28dp"
+        android:paddingLeft="20dp"
+        android:text="Login"
+        android:textSize="15dp" />
+
+</AbsoluteLayout>

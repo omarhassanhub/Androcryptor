@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="40dp"
+        android:background="#ffffff"
+        android:drawableRight="@drawable/arrow"
+        android:gravity="left|center_vertical"
+        android:minHeight="28dp"
+        android:paddingLeft="20dp"
+        android:text="Start"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/btnStop"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btnStart"
+        android:layout_marginTop="18dp"
+        android:background="#ffffff"
+        android:drawableRight="@drawable/arrow"
+        android:gravity="left|center_vertical"
+        android:minHeight="28dp"
+        android:paddingLeft="20dp"
+        android:text="Stop"
+        android:textSize="15dp" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:src="@drawable/ic_dropbox" />
+
+    <Button
+        android:id="@+id/btnUpload"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btnStop"
+        android:layout_marginTop="20dp"
+        android:background="#ffffff"
+        android:drawableRight="@drawable/arrow"
+        android:gravity="left|center_vertical"
+        android:minHeight="28dp"
+        android:paddingLeft="20dp"
+        android:text="Upload Memo"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="14dp"
+        android:text="Record Voice Memo" />
+
+    <Button
+        android:id="@+id/btnDownload"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btnUpload"
+        android:layout_marginTop="19dp"
+        android:background="#ffffff"
+        android:drawableRight="@drawable/arrow"
+        android:gravity="left|center_vertical"
+        android:minHeight="28dp"
+        android:paddingLeft="20dp"
+        android:text="Download Memo"
+        android:textSize="15dp" />
+
+</RelativeLayout>

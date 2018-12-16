@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.myproject.androcryptor"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="22" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        
+        <activity
+            android:name="com.myproject.androcryptor.SplashFragment"
+            android:label="@string/app_name" >
+            <meta-data android:name="android.support.UI_OPTIONS"
+            	android:value="splitActionBarWhenNarrow" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name="com.myproject.androcryptor.AccountLoginFragment" >
+            <meta-data
+	            android:name="android.support.PARENT_ACTIVITY"
+	            android:value="com.myproject.androcryptor.MenuDrawerFragment" />
+        </activity>
+        
+		<activity android:name="com.myproject.androcryptor.AccountRegisterFragment" >
+            <meta-data
+	            android:name="android.support.PARENT_ACTIVITY"
+	            android:value="com.myproject.androcryptor.MenuDrawerFragment" />
+        </activity>
+        
+		<activity android:name="com.myproject.androcryptor.AccountPassChangeFragment" >
+            <meta-data
+	            android:name="android.support.PARENT_ACTIVITY"
+	            android:value="com.myproject.androcryptor.MenuDrawerFragment" />
+        </activity>
+       
+        <activity android:name="com.myproject.androcryptor.MenuDrawerFragment" >
+            <meta-data
+	            android:name="android.support.PARENT_ACTIVITY"
+	            android:value="com.myproject.androcryptor.MenuDrawerFragment" />
+        </activity>
+        
+        <activity
+            android:name="com.dropbox.client2.android.AuthActivity"
+            android:configChanges="orientation|keyboard"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+            <intent-filter>
+                <data android:scheme="db-4c9rnxcxsxwzc2e" />
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="DropboxFileBrowseFragment"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <activity
+            android:name="OnedriveSaveFileFragment"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="OnedrivePickFileFragment"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <activity
+            android:name="GoogledriveSaveFileFragment"
+            android:screenOrientation="portrait" >
+        </activity>
+  
+        
+        <activity
+            android:name="DropboxTeamFragment"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <activity
+            android:name="AccountPassResetFragment"
+            android:screenOrientation="portrait" >
+        </activity>
+  
+        <activity
+            android:name="SettingFragment"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <activity
+            android:name="DropboxInviteFragment"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <activity
+            android:name="DropboxMemoFragment"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <activity
+            android:name="GoogledriveFragment"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <activity
+            android:name="DropboxCommentFragment"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+    
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />   
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" /> 
+
+
+</manifest>

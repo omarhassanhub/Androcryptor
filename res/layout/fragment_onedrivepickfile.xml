@@ -1,0 +1,55 @@
+    <RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+
+    
+            <RadioGroup android:id="@+id/radioGroup"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+                
+<!--                 <RadioButton -->
+<!--                     android:id="@+id/radDownloadLink" -->
+<!--                     android:layout_width="wrap_content" -->
+<!--                     android:layout_height="wrap_content" -->
+<!--                     android:checked="true" -->
+<!--                     android:text="@string/androRadioDownloadLink" /> -->
+
+            </RadioGroup>
+
+        <Button
+            android:id="@+id/buttonDownload"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/radioGroup"
+            android:layout_marginTop="18dp"
+            android:background="#ffffff"
+            android:drawableRight="@drawable/arrow"
+            android:gravity="left|center_vertical"
+            android:minHeight="28dp"
+            android:paddingLeft="20dp"
+            android:text="@string/androStartPickerButton"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/buttonSave"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/buttonDownload"
+            android:layout_marginTop="18dp"
+            android:background="#ffffff"
+            android:drawableRight="@drawable/arrow"
+            android:gravity="left|center_vertical"
+            android:minHeight="28dp"
+            android:paddingLeft="20dp"
+            android:text="@string/androResultSaveAsButtonLabel"
+            android:textSize="15dp" />
+        
+    </RelativeLayout>
+    

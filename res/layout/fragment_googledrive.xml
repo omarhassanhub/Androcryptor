@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/fragment1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="23dp"
+        android:src="@drawable/ic_googledrive" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/fragment1"
+        android:layout_marginLeft="23dp"
+        android:text="Authenticate"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <Button
+        android:id="@+id/buttonLinkAcc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:background="#ffffff"
+        android:drawableRight="@drawable/arrow"
+        android:gravity="left|center_vertical"
+        android:minHeight="28dp"
+        android:paddingLeft="20dp"
+        android:text="@string/googleLink"
+        android:textSize="15dp" />
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/buttonDownloadAcc"
+        android:layout_marginTop="60dp" 
+        android:background="#000000">
+        
+    </ListView>
+
+    <Button
+        android:id="@+id/buttonDownloadAcc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/buttonUploadAcc"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:background="#ffffff"
+        android:drawableRight="@drawable/arrow"
+        android:gravity="left|center_vertical"
+        android:minHeight="28dp"
+        android:paddingLeft="20dp"
+        android:text="Download File"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/buttonUploadAcc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/buttonUnLinkAcc"
+        android:layout_marginTop="17dp"
+        android:layout_weight="1"
+        android:background="#ffffff"
+        android:drawableRight="@drawable/arrow"
+        android:gravity="left|center_vertical"
+        android:minHeight="28dp"
+        android:paddingLeft="20dp"
+        android:text="Upload File"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/buttonUnLinkAcc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/buttonLinkAcc"
+        android:layout_marginTop="20dp"
+        android:background="#ffffff"
+        android:drawableRight="@drawable/arrow"
+        android:gravity="left|center_vertical"
+        android:minHeight="28dp"
+        android:paddingLeft="20dp"
+        android:text="@string/googleUnLink"
+        android:textSize="15dp" />
+
+</RelativeLayout>

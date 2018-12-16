@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/fragment1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/fragment1"
+        android:layout_marginLeft="23dp"
+        android:text="Select an option:"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonUploadAcc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140dp"
+        android:src="@drawable/ic_onedrive" />
+
+    <Button
+        android:id="@+id/buttonUploadAcc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="14dp"
+        android:layout_weight="1"
+        android:background="#ffffff"
+        android:drawableRight="@drawable/arrow"
+        android:gravity="left|center_vertical"
+        android:minHeight="28dp"
+        android:paddingLeft="20dp"
+        android:text="@string/fileUploadString"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/buttonDownloadAcc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/buttonUploadAcc"
+        android:layout_marginTop="19dp"
+        android:layout_weight="1"
+        android:background="#ffffff"
+        android:drawableRight="@drawable/arrow"
+        android:gravity="left|center_vertical"
+        android:minHeight="28dp"
+        android:paddingLeft="20dp"
+        android:text="@string/onedrive"
+        android:textSize="15dp" />
+
+</RelativeLayout>

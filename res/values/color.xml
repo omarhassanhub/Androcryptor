@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="drawerListTitle">#fff</color>
+    <color name="backgroundList">#303030</color>
+    <color name="backgroundListPress">#992416</color>
+    <color name="dividerList">#272727</color>
+    <color name="countTextBackground">#626262</color>
+    <color name="countTextColor">#c5c4c4</color>
+</resources>

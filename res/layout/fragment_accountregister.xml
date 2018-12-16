@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/AbsoluteLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_bg" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="62dp"
+        android:layout_y="60dp"
+        android:scaleType="center"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="106dp"
+        android:layout_y="77dp"
+        android:text="Androcryptor"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/fname"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_x="110dp"
+        android:layout_y="160dp"
+        android:background="#ffffff"
+        android:ems="10"
+        android:inputType="textEmailAddress" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/lname"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_x="110dp"
+        android:layout_y="190dp"
+        android:background="#ffffff"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/TextView00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="16dp"
+        android:layout_y="160dp"
+        android:text="First Name: "
+        android:textColor="#fff"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="16dp"
+        android:layout_y="190dp"
+        android:text="Last Name: "
+        android:textColor="#fff"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="16dp"
+        android:layout_y="220dp"
+        android:text="Email: "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#fff" />
+    
+    <TextView
+        android:id="@+id/TextView03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="16dp"
+        android:layout_y="250dp"
+        android:text="Username: "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#fff" />
+    
+    <TextView
+        android:id="@+id/TextView04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="16dp"
+        android:layout_y="280dp"
+        android:text="Password: "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#fff" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_x="110dp"
+        android:layout_y="220dp"
+        android:background="#ffffff"
+        android:ems="10"
+        android:inputType="textPersonName" />
+    
+    <EditText
+        android:id="@+id/uname"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_x="110dp"
+        android:layout_y="250dp"
+        android:background="#ffffff"
+        android:ems="10"
+        android:inputType="textPersonName" />
+    
+    <EditText
+        android:id="@+id/pword"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_x="110dp"
+        android:layout_y="280dp"
+        android:background="#ffffff"
+        android:ems="10"
+        android:inputType="textPassword" />
+    
+    <TextView
+        android:id="@+id/register_error"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="210dp"
+        android:layout_y="376dp"
+        
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="58dp"
+        android:layout_x="0dp"
+        android:layout_y="403dp"
+        android:background="#ffffff"
+        android:drawableRight="@drawable/arrow"
+        android:gravity="left|center_vertical"
+        android:minHeight="28dp"
+        android:paddingLeft="20dp"
+        android:text="Back to login"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/buttonReg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="58dp"
+        android:layout_x="0dp"
+        android:layout_y="369dp"
+        android:background="#ffffff"
+        android:drawableRight="@drawable/arrow"
+        android:gravity="left|center_vertical"
+        android:minHeight="28dp"
+        android:paddingLeft="20dp"
+        android:text="Register"
+        android:textSize="15dp" />
+
+</AbsoluteLayout>

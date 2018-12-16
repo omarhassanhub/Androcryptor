@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string name="app_name">Androcryptor</string>
+    <string name="action_settings">Settings</string>
+    <string name="txt_hint">Enter password</string>
+    
+    <string-array name="nav_drawer_items">
+        <item >User Details</item>
+        <item >Dropbox</item>
+        <item >OneDrive</item>
+        <item >GoogleDrive</item>
+        <item >Settings</item>
+        <item >Help</item>
+        <item >About</item>
+        <item >Log Out</item>
+    </string-array>
+  
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_name</item>
+        <item>@drawable/ic_dropbox</item>
+        <item>@drawable/ic_onedrive</item>
+        <item>@drawable/ic_googledrive</item>
+        <item>@drawable/ic_settings</item>
+        <item>@drawable/ic_help</item>
+        <item>@drawable/ic_about</item>
+        <item>@drawable/ic_logout</item>
+    </array>
+    
+    <string name="networkError">Network Error</string>
+    <string name="dropboxError">Dropbox Error</string>
+    <string name="unknownError">Uknown Error</string>
+    <string name="storeError">Unable to create a local file to save the picture</string>
+    <string name="authError">This application was not authenticated</string>
+    <string name="noImage">No images in this directory</string>
+    <string name="emptyFile">Empty directory</string>
+    <string name="cancelled">Upload completed!</string>
+	<string name="download_file">Download File</string>
+    <string name="descListIcon">Item Icon</string>
+    <string name="fileUpload">File Uploaded</string>
+    <string name="fileDownload">Download File</string>
+    <string name="team">Team</string>
+    <string name="onedrive">Download File</string>
+    <string name="viewfile">View Drive</string>
+    <string name="mainActivityTitle">Androcryptor</string>
+	<string name="error">Error</string>
+    <string name="errorAuth">Unable to authenticate with Dropbox</string>
+    <string name="errorAuth2">This application was not authenticated</string>
+    <string name="errorEnc">Error Encrypting!</string>
+    <string name="errorDec">Error Decrypting!</string>
+    <string name="errorNet">Network Error</string>
+	<string name="fileEncrypted">File Encrypted</string>
+    <string name="fileDecrypted">File Decrypted</string>
+    <string name="fileDecryptedDownloaded">File Decrypted and saved in downloads</string>
+    <string name="fileEmpty">Empty directory</string>
+ 	<string name="uploading">Uploading </string>
+	<string name="cancel">Cancel</string>
+    <string name="imageView"></string>
+    <string name="dropboxLink">Link with Dropbox</string>
+    <string name="googleLink">Link with Google Drive</string>
+    <string name="googleUnLink">Unlink with Google Drive</string>
+    <string name="onedriveLink">Link with One Drive</string>
+    <string name="fileUploadString">Upload File</string>
+ 	<string name="fileEditSize">50</string>
+	<string name="fileEditText">Androcryptor.txt</string>
+    <string name="SaverButton">Upload file</string>
+    <string name="editFileText">Androcryptor.txt</string>
+    <string name="fileLabelName">File Name:</string>
+    <string name="fileSizeLabel">File Size (KB):</string>
+    <string name="editFileSize">50</string>
+    <string name="fileNameHint">Name of the file to upload to OneDrive</string>
+    <string name="fileSizeHint">Size of the file to upload to OneDrive in kilobytes</string>
+    <string name="errorMsg">None</string>
+    <string name="tableResult">Saver Results</string>
+    <string name="totalResultLab">Result:</string>
+    <string name="totalResultSuc">Success</string>
+    <string name="typeErrorLab">Error Type:</string>
+    <string name="debugError">Debug Error:</string>
+    <string name="error_message_none">None</string>
+    <string name="overall_result_failure">Failure</string>
+    <string name="androRadioWebViewLink">Web View Link</string>
+    <string name="androRadioDownloadLink">Download Link</string>
+    <string name="androStartPickerButton">Choose File</string>
+    <string name="androResultTableProperty">Property</string>
+    <string name="androResultTableValue">Value</string>
+    <string name="androResultTableName">Name:</string>
+    <string name="androResultTableLinkType">LinkType:</string>
+    <string name="androResultTableLink">Link:</string>
+    <string name="androResultTableFileSize">File Size:</string>
+    <string name="androResultTableThumbnails">Thumbnails:</string>
+    <string name="androThumbnailTitle1">Thumbnail: Small</string>
+    <string name="androThumbnailTitle2">Thumbnail: Medium</string>
+    <string name="androThumbnailTitle3">Thumbnail: Large</string>
+    <string name="androThumbnailDefaultUrl">https://www.onedrive.com</string>
+    <string name="androThumbnailDescription">A thumbnail</string>
+    <string name="androResultSaveAsLabel">Save Locally</string>
+    <string name="androResultSaveAsButtonLabel">Save Locally</string>
+    <color name="androThumbnailBackgroundColor">#0043ae</color>
+    <dimen name="androMajorSpacer">16dp</dimen>
+    <dimen name="androMinorSpacer">8dp</dimen>
+    <dimen name="androMarginSides">16dp</dimen>
+ 
+    <string-array name="spArrayName">
+		<item>Admin 1</item>
+		<item>Admin 2</item>
+	</string-array>
+
+</resources>
